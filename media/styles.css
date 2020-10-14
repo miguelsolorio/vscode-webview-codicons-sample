@@ -1,0 +1,38 @@
+html {
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+body {
+	padding: 40px;
+}
+
+body > div {
+	display: flex;
+	align-items: center;
+	margin-bottom: 24px;
+}
+
+div > div {
+	width: 24px;
+	height: 24px;
+	margin-right: 8px;
+}
+.charts-foreground { background-color: var(--vscode-charts-foreground) }
+.charts-lines { background-color: var(--vscode-charts-lines) }
+.charts-red { background-color: var(--vscode-charts-red) }
+.charts-blue { background-color: var(--vscode-charts-blue) }
+.charts-yellow { background-color: var(--vscode-charts-yellow) }
+.charts-orange { background-color: var(--vscode-charts-orange) }
+.charts-green { background-color: var(--vscode-charts-green) }
+.charts-purple { background-color: var(--vscode-charts-purple) }
